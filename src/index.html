@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
+ <script src="https://code.jquery.com/jquery.min.js"></script>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link herf=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" >
+  <!-- CSS only -->
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <meta charset="utf-8">
   <title>Musika2Player</title>
   <base href="/">
@@ -8,6 +16,25 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <!---google search engine-->
+    <script async src="https://cse.google.com/cse.js?cx=ed38da5b219c502d9"></script>
+  <script>
+    $(document).ready(function(){
+  $("#toggle-menu").click(function(){
+    $("nav").animate({
+      width: "toggle"
+    });
+  });
+});</script>
+<script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+    
+<script src="https://www.youtube.com/iframe_api"></script>
+<app-root></app-root>
+  
 </body>
 </html>

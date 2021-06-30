@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "musika2-player"
+  "defaultProject": "musika2-player",
+  "cli": {
+    "analytics": "418bd6d1-44e9-41bb-adbd-1fd7d013389c"
+  }
 }

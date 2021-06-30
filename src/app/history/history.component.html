@@ -1,0 +1,40 @@
+
+ <div style="margin-left: 220px;" class="container">
+        <div style="max-width: 1000px;"class="wrapper">
+               <table class="table table-hover table-bordered">
+                         <thead>
+                           <tr>
+                             <th>ID</th>
+                            
+                             <th>Image</th>
+                             <th>Title</th>
+                             <th>Description</th>
+                             <th>Published</th>
+                          
+                           </tr>
+                         </thead>
+                         <tbody>
+                         
+                            
+                           <tr *ngFor="let result of videos; let index = index">
+                             <td>{{result.videoId}}</td>
+                             <td><img style="width: 100%;" src={{result.thumbnail}} /></td>
+                             
+                             <td><a target="_blank" href="https://www.youtube.com/watch?v=">{{result.title}}</a></td>
+                             <td>{{result.description}}</td>
+                             
+                             <td>{{result.publishedAt}}</td>
+                             
+                           </tr>
+                            
+                          
+                          
+                           
+                         </tbody>
+                       </table>
+          
+        </div>
+
+          
+  </div>
+        <router-outlet></router-outlet>

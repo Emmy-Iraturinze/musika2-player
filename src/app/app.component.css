@@ -1,0 +1,44 @@
+
+nav{
+     padding-bottom: 100px;
+    position: fixed;
+    z-index: 1000;
+    margin-top: -90px;
+}
+
+
+nav ul {
+     background: rgb(0, 0, 0);
+     width: 220px;
+     height: 700px;
+     
+}
+
+li{
+    
+     list-style: none;
+     font-size: 15px;
+     margin: 22px;
+   
+}
+nav li a{
+     text-decoration: none;
+     color: white;
+     transition: 0.5s ease;
+    
+}
+nav .bi{
+     color: white;
+     margin-right: 9px;
+}
+
+
+nav li a:hover{
+    color:rgb(25, 102, 128);
+    
+}
+.bi-list{
+     position: fixed;
+}
+
+/*-----audio list*/

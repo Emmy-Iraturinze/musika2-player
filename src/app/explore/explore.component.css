@@ -1,0 +1,26 @@
+.bi-star-fill{
+     color:red;
+}
+.section-1 {
+     background-color: black;
+}
+.fullscreen-bg__video{
+     margin-left: 100px;
+    width: 1198px;
+    
+}
+.col2{
+     background-color: rgba(250, 250, 250, 0.2);
+}
+.context{
+     position: absolute;
+     z-index:100;
+     margin-left: 200px;
+     margin-top: -940px;
+}
+.content-2 {
+     position: absolute;
+     margin-left: 800px;
+     margin-top: -740px;
+     z-index:100;
+}
