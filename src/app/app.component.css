@@ -1,9 +1,16 @@
 
+
+.section0{
+   margin-top: 5px;
+     align-content: center;
+     padding-top: 20px;
+     background: black;
+}
 nav{
      padding-bottom: 100px;
     position: fixed;
     z-index: 1000;
-    margin-top: -90px;
+    margin-top: 63px;
 }
 
 
@@ -15,13 +22,14 @@ nav ul {
 }
 
 li{
-    
+  
      list-style: none;
      font-size: 15px;
      margin: 22px;
    
 }
 nav li a{
+     margin-top: 20px;
      text-decoration: none;
      color: white;
      transition: 0.5s ease;

@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 
 const routes: Routes = [
-  {path:'',component:AppComponent},
+  {path:'',component:ExploreComponent},
   {path:'explore' ,component:ExploreComponent},
   {path:'history' ,component:HistoryComponent},
   {path:'settings' ,component:SettingsComponent},
