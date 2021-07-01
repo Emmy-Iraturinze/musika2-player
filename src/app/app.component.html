@@ -1,62 +1,105 @@
-<div style="margin-left: 900px;position: fixed;margin-top: 30px; border-radius: 20px;" class="section0 container-fluid ">
-  <a style="text-decoration: none;color: withe; margin-right: 30px; font-size: 20px; " href="">Read Me</a>
-  <a style="text-decoration: none;color: withe; margin-right: 30px; font-size: 20px; " href="">Contact Us</a>
-  <i style="text-decoration: none;color: withe; margin-right: 30px;font-size: 20px; color: bisque;" class="bi bi-linkedin"></i>
-  <i style="text-decoration: none;color: withe; margin-right: 30px; font-size: 20px; color: bisque;" class="bi bi-instagram"></i>
-  <i style="text-decoration: none;color: withe; margin-right: 30px; font-size: 20px;color: blue; "  class="fab fa-facebook-f"></i>
-
+<nav style="position:fixed;margin-top: -70px;border-radius: 20px;z-index: 10; margin-left: 230px; background-color: rgba(255,255, 255,0.1);" class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul style="margin-left: 300px;" class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a style="margin-left: -300px;" routerLink="explore"  class="nav-link active text-white" aria-current="page" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a style="cursor: pointer;" class="nav-link text-white" >About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-white">
+            
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"aria-disabled="true">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+    <li style="list-style: none; transition: 0.5s ease;"><i style="list-style: none;transition: 0.5s ease;color: withe; margin-right: 30px; font-size: 20px; cursor: pointer; color: blue; "  class="fab fa-facebook-f"></i></li>
+    <li style="list-style: none;transition: 0.5s ease;"><i style="list-style: none;transition: 0.5s ease;color: withe; margin-right: 30px; font-size: 20px;cursor: pointer;  color: bisque;" class="bi bi-instagram"></i></li>
+    <li style="list-style: none; transition: 0.5s ease;"><i style="color: withe; transition: 0.5s ease; margin-right: 30px;font-size: 20px; color: bisque;cursor: pointer; " class="bi bi-linkedin"></i></li>
+    <i  style="color: withe; transition: 0.5s ease; margin-right: 30px;font-size: transition: 0.5s ease;20px;transition: 0.5s ease; color: bisque; cursor: pointer; "  class="bi bi-camera-reels"></i>
+    <i style="color: withe;transition: 0.5s ease; margin-right: 30px;font-size: 20px;transition: 0.5s ease; color: bisque; cursor: pointer; " class="bi bi-bell"></i>
+    <i  style="color: withe;transition: 0.5s ease; margin-right: 0px;font-size: 30px;transition: 0.5s ease;margin-left:0px; color: bisque;cursor: pointer; " class="fas fa-border-none"></i>
+    <i  style="color: withe;transition: 0.5s ease; margin-right: 30px;font-size: 30px;transition: 0.5s ease;margin-left: 200px; cursor: pointer; color: bisque;" class="bi bi-person-circle"></i>
+    
+  </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
   
-</div>
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-
-        </div>
-     <p style="margin-left: 40px;" class="">Oops! Settings page is Under Maintainance <img src="../assets/Appoint a Handyman Services To Prepare Your Own House.jpeg" width="100px"> </p>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Get It</button>
-         
+          </div>
+       <p style="margin-left: 40px;" class="">Oops! Settings page is Under Maintainance <img src="../assets/Appoint a Handyman Services To Prepare Your Own House.jpeg" width="100px"> </p>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Get It</button>
+           
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-<div class=" section-1 container-fluid  " >
-   
-      <strong style="top: 0;font-weight: 900; font-size: 40px;
-      position: fixed;" class="text-primary ml-4 ">Musika<img src="../assets/pngegg.png" width="50px"></strong>
-  <div class="row ">
-    <div class="col">
-      
-        <nav>
-            <ul>
-
-               
-              <li><i style="color: red;" class="bi bi-house-fill"></i><a routerLink='/explore' routerLinkActive="active">Home</a></li>
-             
-                
-              <li ><i class="bi bi-compass"></i><a class="mt-5" routerLink="/explore">Explore</a></li>
-             
-             
-              
-
-              <li><i class="bi bi-collection-play"></i><a routerLink="history">Libraly</a></li>
-              <li><i class="bi bi-search"></i><a routerLink="search">search</a></li>
-              <hr>
-              <hr>  
-              <li><i class="bi bi-gear"></i><a type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  Settings
-              </a></li>
-              <a style="cursor: pointer; color:white" onclick="myFunction()"><i class="bi bi-moon"></i>Dark Mode</a>
-              
-            </ul>
-          </nav>
-    </div>
-
-  </div>
   
-  <router-outlet></router-outlet>
+    <strong style="margin-top:-60px;font-weight: 900; font-size: 40px; margin-left: 50px;
+    position: fixed;" class="text-primary ">Musika<img src="../assets/5uwq.gif" width="50px"></strong>
+    <nav id="nav1">
+        <ul>
 
-</div>
+           
+          <li><i style="color: red;" class="bi bi-house-fill"></i><a routerLink='/explore' routerLinkActive="active">Home</a></li>
+         
+            
+          <li ><i class="bi bi-compass"></i><a class="mt-5" routerLink="/explore">Explore</a></li>
+         
+         
+          
+
+          <li><i class="bi bi-collection-play"></i><a routerLink="history">Libraly</a></li>
+          <li><i class="bi bi-search"></i><a routerLink="search">search</a></li>
+          <hr>
+          <hr>  
+          <li><i class="bi bi-gear"></i><a type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Settings
+          </a></li>
+          <i class="bi bi-moon"></i><a style="cursor: pointer; color:white" onclick="myFunction()">Dark Mode</a>
+          
+        </ul>
+      </nav>
+     
+     <router-outlet></router-outlet>
+ 
+     <footer style="padding: 10px;font-size: 15px; background: black;" class="text-center text-secondary">
+      
+      <div class="footer-glass text-center">
+         
+         
+
+ 
+        </div>
+      CopyRight&copy;Emmy 
+      <div style="margin-left: 500px; margin-top: -100px;" class="div">
+      
+     
+       
+      </div>
+      <hr style="bottom: 0;">
+      <div style="margin-left: 500px;margin-top: 38px;">
+         
+      </div>
+     
+      </footer>

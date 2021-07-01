@@ -1,52 +1,66 @@
 
 
 .section0{
+     position: relative;
    margin-top: 5px;
      align-content: center;
      padding-top: 20px;
      background: black;
+    
 }
-nav{
-     padding-bottom: 100px;
+#nav1{
+     padding-bottom: 10px;
     position: fixed;
     z-index: 1000;
-    margin-top: 63px;
+    margin-top: 20px;
 }
 
 
-nav ul {
+#nav1 ul {
      background: rgb(0, 0, 0);
      width: 220px;
-     height: 700px;
+     height: 100px;
      
 }
 
-li{
+#nav1 li{
   
      list-style: none;
      font-size: 15px;
      margin: 22px;
    
 }
-nav li a{
+#nav1 li a{
      margin-top: 20px;
      text-decoration: none;
      color: white;
      transition: 0.5s ease;
     
 }
-nav .bi{
+#nav1 .bi{
      color: white;
      margin-right: 9px;
 }
 
 
-nav li a:hover{
+#nav1 li a:hover{
     color:rgb(25, 102, 128);
     
 }
 .bi-list{
      position: fixed;
+}
+.footer-glass{
+     margin-top:250px ;
+     width: 200px;
+     height: 80px;
+     background: black;
+     border-radius: 5px;
+     margin-left: 200px;
+     bottom: 0;
+}
+.carousel-item img{
+     margin-left: 200px;
 }
 
 /*-----audio list*/

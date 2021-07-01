@@ -24,3 +24,12 @@
      margin-top: -740px;
      z-index:100;
 }
+.row-header{
+     border-radius: 5px;
+     width: 270px;
+     height: 60px;
+     color:white;
+     margin-top: -210px;
+     margin-left: 250px;
+     box-shadow: 2px 5px 10px rgb(25, 102, 128);
+}
