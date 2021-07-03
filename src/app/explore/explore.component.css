@@ -38,3 +38,26 @@
 }
 
 /*---corousel-------*/
+
+@media screen and (max-width: 500px)
+      {
+          .expore-wrapper{
+            margin-left: -195px;
+            overflow: hidden;
+          }
+          .explore-more{
+               
+               margin-left: -200px;
+          }
+          .explore-more span{
+              position: relative;
+          }
+          video{
+               margin-left: 50px;
+          }
+          .card{
+             
+               width: 200px;
+          }
+   
+      }

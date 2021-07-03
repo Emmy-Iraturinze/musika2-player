@@ -34,11 +34,38 @@ display: flex;
 }
 
 
+
 #nav1 ul {
      background: black;
      width: 220px;
      height: 500px;
      
+}
+.big-video{
+     position: relative; 
+     padding-bottom: 56.25%;
+      padding-top: 30px;
+       height: 0;
+        overflow: hidden;
+}
+ iframe{
+     position: absolute;
+     height: 100%;
+     width: 100%;
+
+}
+@media screen and (max-width:768px){
+     #nav1 {
+        display: none;
+        position: absolute;
+     }
+     nav{
+          display: none;
+     }
+     .youtube-player {
+     width: 100px;
+     height: 100px;
+     }
 }
 
 #nav1 li{
@@ -60,11 +87,17 @@ display: flex;
      margin-right: 9px;
 }
 
-
-#nav1 li a:hover{
-    
-    
+@media screen and(max-width:500px){
+   .brand-img{
+    margin-left: 50px;
+    position: absolute;
+    z-index: 10;
+     }
+     nav{
+          z-index: -1;
+     }
 }
+
 .bi-list{
      position: fixed;
 }
