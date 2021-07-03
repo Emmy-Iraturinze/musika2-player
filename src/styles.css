@@ -19,7 +19,7 @@ body{
      text-decoration-color: beige;
      font-family: 'Roboto', sans-serif;
 }
-a:hover{
+nav a:hover{
 background-color: #0dcaf0;
 border-radius: 5px;
 box-shadow:2px 5px 8px #0dcaf0;
@@ -62,3 +62,4 @@ box-shadow:2px 5px 8px #0dcaf0;
           opacity: 1;
           transform: rotateZ(-2deg);
         }
+        

@@ -11,6 +11,7 @@ import { SettingsComponent } from './settings/settings.component';
 import { YouTubePlayerModule } from "@angular/youtube-player";
 import { HttpClientModule } from '@angular/common/http';
 import { SearchComponent } from './search/search.component';
+import { ReadMeComponent } from './read-me/read-me.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { SearchComponent } from './search/search.component';
     ExploreComponent,
     HistoryComponent,
     SettingsComponent,
-    SearchComponent
+    SearchComponent,
+    ReadMeComponent
   ],
   imports: [
     BrowserModule,

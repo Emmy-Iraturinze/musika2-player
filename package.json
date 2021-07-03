@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
     "@angular/youtube-player": "^12.1.0",
+    "aos": "^2.3.4",
     "bootstrap": "^5.0.2",
     "express": "^4.17.1",
     "path": "^0.12.7",

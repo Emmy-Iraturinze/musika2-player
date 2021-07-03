@@ -1,7 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
-    
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+<link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<liink href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+<!-----goole sign-->
+<meta name="google-signin-scope" content="profile email">
+<meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <!---aos-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   
   <!---fontawesome-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="undefined" crossorigin="anonymous">
  <script src="https://code.jquery.com/jquery.min.js"></script>
@@ -19,6 +31,11 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
   <!---googlefont-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,8 +44,8 @@
     <script async src="https://cse.google.com/cse.js?cx=ed38da5b219c502d9"></script>
   <script>
     $(document).ready(function(){
-  $("#toggle-menu").click(function(){
-    $("nav").animate({
+  $(".bi-person-circle").click(function(){
+    $("form").animate({
       width: "toggle"
     });
   });
@@ -41,8 +58,29 @@
     </script>
     
     <script>
-    
+      $(document).ready(function(){
+        $("#exampleModal").modal('show');
+    });
     </script>
+    <script>
+        AOS.init();
+      </script>
+      <script>
+          function onSignIn(googleUser) {
+            // Useful data for your client-side scripts:
+            var profile = googleUser.getBasicProfile();
+            console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+            console.log('Full Name: ' + profile.getName());
+            console.log('Given Name: ' + profile.getGivenName());
+            console.log('Family Name: ' + profile.getFamilyName());
+            console.log("Image URL: " + profile.getImageUrl());
+            console.log("Email: " + profile.getEmail());
+    
+            // The ID token you need to pass to your backend:
+            var id_token = googleUser.getAuthResponse().id_token;
+            console.log("ID Token: " + id_token);
+          }
+        </script>
 <script src="https://www.youtube.com/iframe_api"></script>
 <app-root></app-root>
   

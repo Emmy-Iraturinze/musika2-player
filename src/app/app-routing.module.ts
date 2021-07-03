@@ -5,13 +5,16 @@ import { HistoryComponent } from './history/history.component';
 import {SettingsComponent} from './settings/settings.component';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
+import {ReadMeComponent} from './read-me/read-me.component'
+import { from } from 'rxjs';
 
 const routes: Routes = [
   {path:'',component:ExploreComponent},
   {path:'explore' ,component:ExploreComponent},
   {path:'history' ,component:HistoryComponent},
-  {path:'settings' ,component:SettingsComponent},
-  {path:'search' ,component:SearchComponent}
+  {path:'sign-up' ,component:SettingsComponent},
+  {path:'search' ,component:SearchComponent},
+  {path:'read-me',component:ReadMeComponent},
 
 ];
 

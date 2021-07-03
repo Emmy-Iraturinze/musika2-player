@@ -1,5 +1,21 @@
 
-
+.form1{
+     position: absolute;
+     align-content: center;
+          background: rgb(246, 246, 255);
+          width: 300px;
+          height: 280px;
+          border-radius: 20px;
+          margin-left: 200px;
+          z-index: 1;
+          margin-top: 350px;
+          right: 0;
+          box-shadow: 2px 2px 10px 2px ;
+          display: none;
+     }
+     .social-media .i{
+display: flex;
+     }
 .section0{
      position: relative;
    margin-top: 5px;
@@ -13,13 +29,15 @@
     position: fixed;
     z-index: 1000;
     margin-top: 20px;
+    background-color: black;
+
 }
 
 
 #nav1 ul {
-     background: rgb(0, 0, 0);
+     background: black;
      width: 220px;
-     height: 100px;
+     height: 500px;
      
 }
 
@@ -44,7 +62,7 @@
 
 
 #nav1 li a:hover{
-    color:rgb(25, 102, 128);
+    
     
 }
 .bi-list{
@@ -62,5 +80,6 @@
 .carousel-item img{
      margin-left: 200px;
 }
+
 
 /*-----audio list*/

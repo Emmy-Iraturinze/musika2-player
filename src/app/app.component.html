@@ -1,4 +1,4 @@
-<nav style="position:fixed;margin-top: -70px;border-radius: 20px;z-index: 10; margin-left: 230px; background-color: rgba(255,255, 255,0.1);" class="navbar navbar-expand-lg navbar-light ">
+<nav style="position:fixed;margin-top: -90px;border-radius: 20px;z-index: 10; margin-left: 230px; background-color: black" class="navbar navbar-expand-lg navbar-light ">
     <div class="container">
       
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,12 +10,10 @@
             <a style="margin-left: -300px;" routerLink="explore"  class="nav-link active text-white" aria-current="page" >Home</a>
           </li>
           <li class="nav-item">
-            <a style="cursor: pointer;" class="nav-link text-white" >About Me</a>
+            <a style="cursor: pointer;margin-left: 500px; position: absolute;" class="nav-link text-white" routerLink="read-me">About Us</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link text-white">
-            
-            </a>
+           
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown"aria-disabled="true">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -23,22 +21,27 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
+        
         </ul>
        
       </div>
     </div>
-    <li style="list-style: none; transition: 0.5s ease;"><i style="list-style: none;transition: 0.5s ease;color: withe; margin-right: 30px; font-size: 20px; cursor: pointer; color: blue; "  class="fab fa-facebook-f"></i></li>
-    <li style="list-style: none;transition: 0.5s ease;"><i style="list-style: none;transition: 0.5s ease;color: withe; margin-right: 30px; font-size: 20px;cursor: pointer;  color: bisque;" class="bi bi-instagram"></i></li>
-    <li style="list-style: none; transition: 0.5s ease;"><i style="color: withe; transition: 0.5s ease; margin-right: 30px;font-size: 20px; color: bisque;cursor: pointer; " class="bi bi-linkedin"></i></li>
-    <i  style="color: withe; transition: 0.5s ease; margin-right: 30px;font-size: transition: 0.5s ease;20px;transition: 0.5s ease; color: bisque; cursor: pointer; "  class="bi bi-camera-reels"></i>
-    <i style="color: withe;transition: 0.5s ease; margin-right: 30px;font-size: 20px;transition: 0.5s ease; color: bisque; cursor: pointer; " class="bi bi-bell"></i>
-    <i  style="color: withe;transition: 0.5s ease; margin-right: 0px;font-size: 30px;transition: 0.5s ease;margin-left:0px; color: bisque;cursor: pointer; " class="fas fa-border-none"></i>
-    <i  style="color: withe;transition: 0.5s ease; margin-right: 30px;font-size: 30px;transition: 0.5s ease;margin-left: 200px; cursor: pointer; color: bisque;" class="bi bi-person-circle"></i>
+    <div class="social-media">
     
+    </div>
+   
+    <i  style="color: withe;transition: 0.5s ease; margin-right: 30px;font-size: 30px;transition: 0.5s ease;margin-left: 705px; cursor: pointer; color: bisque;" class="bi bi-person-circle"></i>
+    <form class="form1"><i style="font-size: 50px; margin-left: 120px; color:ba" class="bi bi-person-circle text-center"></i>
+      <input style="margin-left:40px;"  type="email" class="form-control w-75 mb-3 ml-3" placeholder="Your Email">
+      <input style="margin-left:40px;"  type="password" class="form-control w-75 mb-3 ml-3" placeholder="Password" required>
+      <a href="explore" style="margin-left:50px; position: absolute;" type="submit" class="btn btn-primary mr-5">Log in</a>
+      <a style="margin-top: 50px; margin-left: 42px; position: absolute; text-decoration: none;" class="" href="search">Create New Account</a>
+      <div style="margin-left: 150px;" class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+      </form>
+     
   </nav>
+  <!---logform-->
+  
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
