@@ -30,10 +30,45 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+<script>
+
+
+
+</script>
+<script>
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 300) {
+	    $("#strong").css("color" , "yellow");
+	  }
+
+	  else{
+		  $("#strong").css("color" , "blue");  	
+	  }
+  })
+  $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 3000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+
+})
+
+</script>
+
 
 </head>
 <body>
   <script>
+    
     var btn = $('#button');
 
 $(window).scroll(function() {

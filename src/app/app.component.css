@@ -1,3 +1,8 @@
+nav {
+     background-color: black;
+     position: fixed;
+ }
+
 .search-eng{
      margin-top: 30px;
   margin-left: 300px;
@@ -238,9 +243,7 @@ nav,a,img{
 .carousel-item img{
      margin-left: 200px;
 }
-nav ul{
-    
-}
+
 
 
 /*-----audio list*/
