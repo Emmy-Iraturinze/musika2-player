@@ -1,45 +1,66 @@
-<nav style="position:fixed;margin-top: -90px;border-radius: 20px;z-index: 10; margin-left: 230px; background-color: black" class="navbar navbar-expand-lg navbar-light ">
-    <div class="container">
-      
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+<nav  style="margin-top: -18px;"class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+        <a >
+            <strong id="strong" style="
+            font-weight: 900;
+             font-size: 40px; 
+           
+            " 
+            class="text-primary ">Musika
+            </strong>
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul style="margin-left: 300px;" class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div data-aos="zoom-out-right" class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a style="margin-left: -300px;" routerLink="explore"  class="nav-link active text-white" aria-current="page" >Home</a>
+              <a style="margin-left: 80px;
+              background-color: #0dcaf0;
+               border-radius: 5px;
+              
+              margin-top: 31px;
+              font-size: 25px; 
+              font-weight: 800;
+              border-right: 2px solid rgb(61, 59, 59);" routerLink="explore"  class="nav-link active text-white" aria-current="page" ><i class="bi bi-house-fill"></i></a>
           </li>
           <li class="nav-item">
-            <a style="cursor: pointer;margin-left: 500px; position: absolute;" class="nav-link text-white" routerLink="read-me">About Us</a>
+              <a style="margin-left: 13px;
+              font-size: 25px; 
+              font-weight: 800;margin-top: 31px;    border-right: 2px solid #383838;" routerLink="explore"  class="nav-link active text-white" aria-current="page" ><i class="bi bi-dot"></i>Live </a>
           </li>
-          <li class="nav-item dropdown">
-           
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"aria-disabled="true">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item">
+              <a style="cursor: pointer;margin-left: 10px;  border-right: 2px solid #383838; font-weight: 800;margin-top: 31px;    font-size: 25px;margin-right: 35px;" class="nav-link text-white" routerLink="read-me"> 3D</a>
           </li>
-        
-        </ul>
+          
+          <li class="nav-item">
+              <form class="search-eng d-flex">
+                  <input class="form-control w-100  me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-primary  text-white"><i style="margin-top:-15px;"  class="bi bi-search"></i></button>
+                </form>
+          </li>
+          <li class="nav-item">
+              <a style="cursor: pointer;margin-left: -22px;    border-right: 2px solid #383838;margin-top: 31px;  font-size: 25px;font-weight: 900;" class="nav-link text-white" routerLink="read-me"> About</a>
+          </li>
+          <i style="position: absolute;margin-left: 940px;font-size: 30px;margin-top: 40px;" class="fab fa-linkedin-in text-white"></i>
+          <i style="position: absolute;margin-left: 905px;font-size: 30px;margin-top: 40px;" class="fab fa-twitter text-primary"></i>
+          <p style="position: absolute;margin-left: 1000px;margin-top:47px;font-size: px;" class="text-white">My Account</p>
+          <i style="font-size: 50px; margin-left:760px;margin-top: 7px; color:white" class="bi bi-person-circle text-center"></i>
        
+          
+        <form class="form1"><i style="font-size: 50px; margin-left: 120px;margin-top: ; color:ba" class="bi bi-person-circle text-center"></i>
+          <input style="margin-left:40px;"  type="email" class="form-control w-75 mb-3 ml-3" placeholder="Your Email">
+          <input style="margin-left:40px;"  type="password" class="form-control w-75 mb-3 ml-3" placeholder="Password" required>
+          <a href="explore" style="margin-left:50px; margin-top: -1px; position: absolute;" type="submit" class="btn btn-primary mr-5">Log in</a>
+          <a style="margin-top: 50px; margin-left: 42px; position: absolute; text-decoration: none;" class="" href="search">Create New Account</a>
+          <div style="margin-left: 150px;" class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+          </form>
+        </ul>
       </div>
     </div>
-    <div class="social-media">
-    
-    </div>
-   
-    <i  style="color: withe;transition: 0.5s ease; margin-right: 30px;font-size: 30px;transition: 0.5s ease;margin-left: 705px; cursor: pointer; color: bisque;" class="bi bi-person-circle"></i>
-    <form class="form1"><i style="font-size: 50px; margin-left: 120px; color:ba" class="bi bi-person-circle text-center"></i>
-      <input style="margin-left:40px;"  type="email" class="form-control w-75 mb-3 ml-3" placeholder="Your Email">
-      <input style="margin-left:40px;"  type="password" class="form-control w-75 mb-3 ml-3" placeholder="Password" required>
-      <a href="explore" style="margin-left:50px; position: absolute;" type="submit" class="btn btn-primary mr-5">Log in</a>
-      <a style="margin-top: 50px; margin-left: 42px; position: absolute; text-decoration: none;" class="" href="search">Create New Account</a>
-      <div style="margin-left: 150px;" class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-      </form>
-     
   </nav>
+
   <!---logform-->
   
   <!-- Modal -->
@@ -58,18 +79,7 @@
       </div>
     </div>
   <div class="brand col">
-    <div class="brand-wrapper">
-        <strong id="strong" style="margin-top:-60px;
-        font-weight: 900;
-         font-size: 40px; 
-         margin-left: 50px;
-        position: fixed;
-         
-        " 
-        class="text-primary ">Musika
-        <img id="brand-img" src="../assets/5uwq.gif"
-         width="50px"></strong>
-    </div>
+   
    
   </div>
    
@@ -98,6 +108,7 @@
         </ul>
       </nav>
      
+      
      <router-outlet></router-outlet>
  
      <footer style="padding: 10px;font-size: 15px; background: black;" class="text-center text-secondary">

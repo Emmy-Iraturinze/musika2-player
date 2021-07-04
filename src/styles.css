@@ -18,30 +18,14 @@ body{
      background-color: black;
      text-decoration-color: beige;
      font-family: 'Roboto', sans-serif;
+    overflow: -moz-hidden-unscrollable;
 }
 nav a:hover{
 background-color: #0dcaf0;
 border-radius: 5px;
 box-shadow:2px 5px 8px #0dcaf0;
 }
-.bi:hover{
-     background-color: #0dcaf0;
-     border-radius: 5px;
-     box-shadow:2px 5px 8px #0dcaf0;
-     transform: translateY(-5px);
-     }
-     .fas:hover{
-          background-color: #0dcaf0;
-          border-radius: 5px;
-          box-shadow:2px 5px 8px #0dcaf0;
-          transform: translateY(-5px);
-     }
-     .fab:hover{
-          background-color: #0dcaf0;
-          border-radius: 5px;
-          box-shadow:2px 5px 8px #0dcaf0;
-          transform: translateY(-5px);
-     }
+
 
      .inline-photo {
           border: 1em solid #fff;

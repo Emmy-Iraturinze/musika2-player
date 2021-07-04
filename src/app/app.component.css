@@ -1,4 +1,90 @@
+.search-eng{
+     margin-top: 30px;
+  margin-left: 300px;
+ position: absolute;
+ z-index: ;
+ position: fixed;
+}
+.bi-dot{
+     position: absolute;
+     margin-left: -47px;
+     font-size: 70px;
+     margin-top: -32px;
+     margin-right: 5px;
+     color: red;
+}
 
+@media screen and (max-width: 500px){
+     .search-eng{
+          position: absolute;
+         opacity: 1;
+          position: fixed;
+         margin-left: 100px;
+         width: 230px;
+         height: 20px;
+         top: 0;
+         z-index: 10;
+     }
+     .search-eng.bi-search{
+          font-size:5px;
+     }
+}
+/*--upload profile*/
+.profile-pic {
+     max-width: 200px;
+     max-height: 200px;
+     display: block;
+ }
+ 
+ .file-upload {
+     display: none;
+ }
+ .circle {
+     border-radius: 1000px !important;
+     overflow: hidden;
+     width: 50px;
+     height: 50px;
+     border: 2px solid rgba(255, 255, 255, 0.7);
+     position: absolute;
+     top: 20px;
+     margin-left: 700px;
+ }
+ img {
+     width: 50px;
+    height: 50px;
+ }
+ .p-image {
+   position: absolute;
+   top: 200px;
+  margin-left: 719px;
+   color: #666666;
+   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+ }
+ .p-image:hover {
+   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+ }
+ .upload-button {
+      position: absolute;
+   font-size: 1.2em;
+   margin-left: 7px;
+   margin-top: -130px;
+ }
+ 
+ .upload-button:hover {
+   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+   color: #999;
+ }
+
+.social li{
+    list-style: none;
+    
+}
+@media screen and (max-width:700px){
+     .social{
+          margin-left: 100px;
+          opacity: 1;
+     }
+}
 .form1{
      position: absolute;
      align-content: center;
@@ -7,8 +93,8 @@
           height: 280px;
           border-radius: 20px;
           margin-left: 200px;
-          z-index: 1;
-          margin-top: 350px;
+        
+          margin-top: 100px;
           right: 0;
           box-shadow: 2px 2px 10px 2px ;
           display: none;
@@ -32,12 +118,19 @@ display: flex;
     background-color: black;
 
 }
+nav{
+     position: relative;
+    
+}
+nav,a,img{
+     margin-top: 20px;
+}
 
 
 
 #nav1 ul {
      background: black;
-     width: 220px;
+     width: 210px;
      height: 500px;
      
 }
@@ -54,17 +147,44 @@ display: flex;
      width: 100%;
 
 }
+/*-----backtotop-----*/
+
+
+
+
+
+
+
 @media screen and (max-width:768px){
      #nav1 {
         display: none;
         position: absolute;
      }
-     nav{
-          display: none;
+     nav a{
+         display: none;
+
+     }
+     nav i{
+          position: absolute;
+          margin-left: -300px;
      }
      .youtube-player {
      width: 100px;
      height: 100px;
+     }
+     nav{
+          display: none;
+
+     }
+     nav .bi{
+          position: absolute;
+     }
+     .brand-wrapper{
+          position: absolute;
+        margin-left: -40px;
+        z-index: 1000;
+        box-shadow: 2px 5px 10px;
+     
      }
 }
 
@@ -82,19 +202,24 @@ display: flex;
      transition: 0.5s ease;
     
 }
+
 #nav1 .bi{
      color: white;
      margin-right: 9px;
 }
 
 @media screen and(max-width:500px){
-   .brand-img{
+   .brand-wrapper{
     margin-left: 50px;
     position: absolute;
     z-index: 10;
      }
      nav{
-          z-index: -1;
+          z-index: 100;
+         
+     }
+     #nav1{
+          background-color: red;
      }
 }
 
@@ -112,6 +237,9 @@ display: flex;
 }
 .carousel-item img{
      margin-left: 200px;
+}
+nav ul{
+    
 }
 
 

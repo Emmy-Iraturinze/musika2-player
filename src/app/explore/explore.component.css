@@ -37,6 +37,7 @@
      margin-bottom: 20px;
 }
 
+
 /*---corousel-------*/
 
 @media screen and (max-width: 500px)
@@ -48,12 +49,15 @@
           .explore-more{
                
                margin-left: -200px;
+               margin-top: 300px;
           }
           .explore-more span{
               position: relative;
           }
           video{
+               position: absolute;
                margin-left: 50px;
+               z-index: 1000;
           }
           .card{
              
