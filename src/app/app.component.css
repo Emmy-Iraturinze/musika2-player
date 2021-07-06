@@ -1,249 +1,127 @@
-nav {
-     background-color: black;
-     position: fixed;
- }
-
-.search-eng{
-     margin-top: 30px;
-  margin-left: 350px;
- position: absolute;
- z-index: ;
- position: fixed;
-}
-.bi-dot{
-     position: absolute;
-     margin-left: -47px;
-     font-size: 70px;
-     margin-top: -32px;
-     margin-right: 5px;
-     color: red;
-}
-
-@media screen and (max-width: 500px){
-     .search-eng{
-          position: absolute;
-         opacity: 1;
-          position: fixed;
-         margin-left: 100px;
-         width: 230px;
-         height: 20px;
-         top: 0;
-         z-index: 10;
-     }
-     .search-eng.bi-search{
-          font-size:5px;
-     }
-}
-/*--upload profile*/
-.profile-pic {
-     max-width: 200px;
-     max-height: 200px;
-     display: block;
- }
- 
- .file-upload {
-     display: none;
- }
- .circle {
-     border-radius: 1000px !important;
-     overflow: hidden;
-     width: 50px;
-     height: 50px;
-     border: 2px solid rgba(255, 255, 255, 0.7);
-     position: absolute;
-     top: 20px;
-     margin-left: 700px;
- }
- img {
-     width: 50px;
-    height: 50px;
- }
- .p-image {
-   position: absolute;
-   top: 200px;
-  margin-left: 719px;
-   color: #666666;
-   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
- }
- .p-image:hover {
-   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
- }
- .upload-button {
-      position: absolute;
-   font-size: 1.2em;
-   margin-left: 7px;
-   margin-top: -130px;
- }
- 
- .upload-button:hover {
-   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
-   color: #999;
- }
-
-.social li{
-    list-style: none;
-    
-}
-@media screen and (max-width:700px){
-     .social{
-          margin-left: 100px;
-          opacity: 1;
-     }
-}
-.form1{
-     position: absolute;
-     align-content: center;
-          background: rgb(246, 246, 255);
-          width: 300px;
-          height: 280px;
-          border-radius: 20px;
-          margin-left: 200px;
-        
-          margin-top: 100px;
-          right: 0;
-          box-shadow: 2px 2px 10px 2px ;
-          display: none;
-     }
-     .social-media .i{
-display: flex;
-     }
-.section0{
-     position: relative;
-   margin-top: 5px;
-     align-content: center;
-     padding-top: 20px;
-     background: black;
-    
-}
-#nav1{
-     padding-bottom: 10px;
-    position: fixed;
-    z-index: 1000;
-    margin-top: 20px;
-    background-color: black;
-
-}
 nav{
-     position: relative;
+     background-color: black;
+    padding-left: 35px;
+    position: fixed;
+    top:0;
+    z-index: 10;
+     
+  
+}
+nav ul{
     
 }
-nav,a,img{
-     margin-top: 20px;
-}
-
-
-
-#nav1 ul {
-     background: black;
-     width: 210px;
-     height: 500px;
-     
-}
-.big-video{
-     position: relative; 
-     padding-bottom: 56.25%;
-      padding-top: 30px;
-       height: 0;
-        overflow: hidden;
-}
- iframe{
-     position: absolute;
-     height: 100%;
-     width: 100%;
-
-}
-/*-----backtotop-----*/
-
-
-
-
-
-
-
-@media screen and (max-width:768px){
-     #nav1 {
-        display: none;
-        position: absolute;
-     }
-     nav a{
-         display: none;
-
-     }
-     nav i{
-          position: absolute;
-          margin-left: -300px;
-     }
-     .youtube-player {
-     width: 100px;
-     height: 100px;
-     }
-     nav{
-          display: none;
-
-     }
-     nav .bi{
-          position: absolute;
-     }
-     .brand-wrapper{
-          position: absolute;
-        margin-left: -40px;
-        z-index: 1000;
-        box-shadow: 2px 5px 10px;
-     
-     }
-}
-
-#nav1 li{
-  
-     list-style: none;
-     font-size: 15px;
-     margin: 22px;
+nav strong{
    
 }
-#nav1 li a{
-     margin-top: 20px;
-     text-decoration: none;
+nav a{
      color: white;
-     transition: 0.5s ease;
+     font-weight: normal;
+     margin-right: 2px;
+     font-family: 'Raleway', sans-serif;
+}
+#myVideo{
+     top: 0; width: 100%; height: 100%; z-index: -1;object-fit: cover;
     
 }
+.video-content{
+     position: absolute;
+   
+    
+    
+   
+    margin-top: -470px;
+     margin-left: 150px;
+  
+}
+.video-content h1{
+     font-size: 50px;
+     font-weight: bolder;
+     letter-spacing: 0.5rem;
+}
+.video-content p{
+     position: absolute;
+     font-size: 27px;
+     letter-spacing: 0.5rem;
+     margin-left: 150px;
+     font-family: 'futura-lt-w01-light';
+}
+.video-content a{
+     position: absolute;
+     margin-top: 45px;
+     color: blanchedalmond;
+     font-size: 30px;
+     margin-left: 120px;
+     font-weight: 700;
+    text-decoration: none;
+}
+.section2{
+   
+  
+}
 
-#nav1 .bi{
+.section2 i{
+    
+     font-size: 60px;
      color: white;
-     margin-right: 9px;
+
+}
+.section2 p{
+     color: white;
+     font-size: 25px;
+     line-height: 1em;
+}
+.section2 span{
+     margin-top: 40px;
+     color: white;
+     font-size: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.section3{
+     margin-top: -10px;
+    
+}
+.section3{
+     background-color: rgba(0,0,0,0.9);
+     width: 100%;
+}
+.section3 video{
+   
+     position: absolute;
+         object-fit: cover;
+          width: 100vw;
+          height: 100vh;
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: -1;
+    
+}
+.section3 p{
+     color: white;
+}
+.section3 #live-logo{
+     margin-left: 270px;
+   margin-top: 200px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 100px;
+}
+.section3 h1{
+     font-weight: bolder;
+     color: white;
+}
+.section3 .phone-image{
+     
+     width: 350px !important;
+     border-radius:none;
+}
+.section3-row p{
+     font-size: 25px;
+     
+}
+.section3 small{
+     font-family: 'Raleway', sans-serif;
+     color: white;
+     font-size:15px;
 }
 
-@media screen and(max-width:500px){
-   .brand-wrapper{
-    margin-left: 50px;
-    position: absolute;
-    z-index: 10;
-     }
-     nav{
-          z-index: 100;
-         
-     }
-     #nav1{
-          background-color: red;
-     }
-}
 
-.bi-list{
-     position: fixed;
-}
-.footer-glass{
-     margin-top:250px ;
-     width: 200px;
-     height: 80px;
-     background: black;
-     border-radius: 5px;
-     margin-left: 200px;
-     bottom: 0;
-}
-.carousel-item img{
-     margin-left: 200px;
-}
-
-
-
-/*-----audio list*/
