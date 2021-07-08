@@ -1,7 +1,7 @@
 @media screen and (max-width:720px){
      .fa-globe{
           position: absolute;
- left: 0;
+ right: 0;
      }
 }
 
@@ -87,6 +87,7 @@ nav span:hover{
      font-size: 50px;
      font-weight: bolder;
      letter-spacing: 0.5rem;
+  
 }
 .video-content p{
      position: absolute;
@@ -94,6 +95,7 @@ nav span:hover{
      letter-spacing: 0.5rem;
      margin-left: 150px;
      font-family: 'futura-lt-w01-light';
+    
 }
 .fa-globe{
      color:rgb(27, 82, 128);
