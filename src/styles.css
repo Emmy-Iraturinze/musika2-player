@@ -5,10 +5,14 @@
      box-sizing: border-box;
 }
      
-body{
+html,body{
      background-color: black;
      font-family: Arial, Helvetica, sans-serif;
      scroll-behavior: smooth;
+     text-align: center;
+     align-items: center;
+     max-width: 100%;
+    
 }
 ::-webkit-scrollbar{
      width: 15px;
