@@ -18,7 +18,7 @@
      
      .section2{
           width: 100%;
-          margin-top: 400px;
+          margin-top: 200px;
           background-color: rgb(43, 131, 182);
           
          
@@ -74,13 +74,15 @@
     
      .content-mover {
         margin-left: 100px;
+        display: none;
      }
     
      .overall-wrapper{
   width: 700px;
      }
      
-     .col4{
+     .paragraph{
+         display: none;
         
      }
      .topnav a:not(:first-child) {display: none;}
