@@ -17,6 +17,8 @@
      }
      
      .section2{
+          width: 100%;
+          margin-top: 400px;
           background-color: rgb(43, 131, 182);
           
          
@@ -43,8 +45,8 @@
       
        display: none;
      }
-     .fa-bars{
-     
+     .content-mover a{
+     margin-top: 400px;
        
       
      }
@@ -184,7 +186,9 @@ nav span:hover{
 }
 
 .content-mover {
-     margin-top: -500px;
+     width: 100%;
+     margin-top: -600px;
+     margin-left: 200px;
 }
 
 #video-cont h1{
@@ -211,7 +215,7 @@ nav span:hover{
      margin-top: 158px;
      color: blanchedalmond;
      font-size: 30px;
-     margin-left: -180px;
+     margin-left: -350px;
      font-weight: normal;
      font-style: oblique;
     text-decoration: none;
@@ -219,6 +223,7 @@ nav span:hover{
 }
 .section2{
      margin-top:400px;
+     width: 100%;
 
 }
 
@@ -250,6 +255,7 @@ nav span:hover{
      width: 100%;
 }
 .section3-content{
+     width: 100%;
      border-top: 2px solid wheat;
 }
 .section3 video{
