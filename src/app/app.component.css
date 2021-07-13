@@ -91,6 +91,12 @@ input::placeholder{
      font-family: 'Raleway', sans-serif;
      position: relative;
 }
+.fa-phone-volume,.fa-tv,.fa-laptop,.fa-record-vinyl,.fa-cogs{
+     border: 2px solid white;
+     padding: 20px;
+     margin-left: 70px;
+     color: white;
+}
 
 /*media query*/
 @media screen and (max-width:800px){
