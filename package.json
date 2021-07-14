@@ -25,6 +25,7 @@
     "@angular/youtube-player": "^12.1.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.0.2",
+    "chart.js": "^3.4.1",
     "express": "^4.17.1",
     "path": "^0.12.7",
     "rxjs": "~6.6.0",

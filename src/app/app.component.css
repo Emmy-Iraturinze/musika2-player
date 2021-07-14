@@ -3,14 +3,28 @@
      background: white;
     border: white;
 }
+.navbar-brand{
+    
+    
 
+}
 
 nav{
      background-color: black;
      width: 100%;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+    
 }
 nav a{
      color: white;
+}
+.bi-github{
+     position: absolute;
+     margin-left: 880px;
+     font-size: 35px;
+     margin-top: -12px;
 }
 #myVideo{
      width: 100%; height: 100%; z-index: -10;object-fit: cover;
@@ -33,6 +47,7 @@ nav a{
      text-decoration: none;
      margin-left: 190px;
 }
+
 .section1{
      color: white;
 }
@@ -43,6 +58,15 @@ nav a{
      background-color: white;
      border-radius:70px;
 }
+.section3{
+
+     margin-top: 150px;
+     border-top: 2px solid white;
+  
+}
+.section3-1{
+     margin-top: 100px;
+}
 .section3 img{
 width: 250px;
 height: 200px;
@@ -51,6 +75,11 @@ height: 200px;
 .section3 small, p ,h1{
    color: white;
    font-family: 'Raleway', sans-serif;
+}
+.section3 header{
+     font-weight: bolder;
+     font-size: 20px;
+     color: white;
 }
 form{
      position: relative;
@@ -148,4 +177,8 @@ input::placeholder{
                margin-left: 100px;
                
                   }
+                  .section1 p{
+                       display: none;
+                  }
+                  
 }
