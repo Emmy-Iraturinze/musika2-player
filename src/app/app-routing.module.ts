@@ -9,7 +9,7 @@ import {ReadMeComponent} from './read-me/read-me.component'
 import { from } from 'rxjs';
 
 const routes: Routes = [
-  {path:'',component:ExploreComponent},
+  {path:'appcomponent',component:AppComponent},
   {path:'explore' ,component:ExploreComponent},
   {path:'history' ,component:HistoryComponent},
   {path:'sign-up' ,component:SettingsComponent},

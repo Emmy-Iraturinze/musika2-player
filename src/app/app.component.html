@@ -3,41 +3,64 @@
   
 
 
-
-      <div class="container">
-        <nav class="navbar navbar-expand-lg ">
-          <div style="background: black;" class="container-fluid">
-            <a class="navbar-brand" href="#">Musika<i class="bi bi-music-player"></i></a>
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon  "> </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Our Work</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Insight
-                  </a>
-                
-                </li>
-              
-                <li class="nav-item ml-5">
-                    <a class="nav-link text-white" ><img title="follow us" style="margin-left: 820px;cursor:pointer;  position: absolute;margin-top: -5px;" src="../assets/globe.gif" width="50px"> </a>
-                  </li>
-                  <li class="nav-item ml-5">
-                      <a class="nav-link text-white" ><i class="bi bi-github"></i></a>
+   
+        <div class="container">
+            <nav class="navbar navbar-expand-lg ">
+              <div style="background: black;" class="container-fluid">
+                <a class="navbar-brand" href="#">Musika<i class="bi bi-music-player"></i></a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon  "> </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-              </ul>
-            
-            </div>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Our Work</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Insight
+                      </a>
+                    
+                    </li>
+                  
+                    <li class="nav-item ml-5">
+                        <a class="nav-link text-white" ><img title="follow us" style="margin-left: 820px;cursor:pointer;  position: absolute;margin-top: -5px;" src="../assets/globe.gif" width="50px"> </a>
+                      </li>
+                      <li class="nav-item ml-5">
+                          <a class="nav-link text-white" ><i class="bi bi-github"></i></a>
+                        </li>
+                        <li class="nav-item ml-5">
+                          <a class="nav-link text-white" ><i class="fas fa-user-plus"></i></a>
+                          <ul>
+                            <form class="form2 " action="/appcomponent" method="POST">
+                                
+                              <div class="form-mover">
+                                <h2 class="mt-5 text-center text-primary">Sign Up</h2>
+                                <input type="text" class="box" id="name" name="name" placeholder="Name" required />
+                                <br><br>
+                                <input type="text" class="box" id="email" name="email" placeholder="Email" required />
+                                <br><br>
+                                <input type="text" class="box" id="phno" name="phno" placeholder="phone" required />
+                                <br><br>
+                                <input type="text" class="box" id="password" name="password" placeholder="Password" required />
+                                <br><br>
+                                <input class="btn btn-outline-primary" type="submit" value="Submit" id="submit" />
+                              </div>
+                             
+                          </form>
+                          </ul>
+                        </li>
+                  </ul>
+                
+                </div>
+              </div>
+            </nav>
           </div>
-        </nav>
-      </div>
+     
+   
       
       
       
@@ -114,18 +137,22 @@
                   </div>
                 </div>
                 <div  class="row mt-3">
-                  <div class="col">
-                    <span>We use broadcast cameras and the latest robotic PTZ cameras to deliver maximum flexibility and efficiency.</span>
+                  <div class="col-md mt-3">
+                   <li><span>We use broadcast cameras and the latest robotic PTZ cameras to deliver maximum flexibility and efficiency.</span></li> 
                   </div>
-                  <div class="col">
-                   <span>To ensure your on-screen content is seen in full quality, we digitally capture your slide deck or live demo.</span>
+
+                  <div class="col-md mt-3">
+                <li> <span>To ensure your on-screen content is seen in full quality, we digitally capture your slide deck or live demo.</span></li>  
                   </div>
-                  <div class="col">
-                  <span>In addition to the live switched show, we record every camera individually. This gives you more flexibility to use the content.</span>
+
+                  <div class="col-md mt-3">
+                 <li><span>In addition to the live switched show, we record every camera individually. This gives you more flexibility to use the content.</span></li> 
                   </div>
-                  <div class="col">
-                    <span>We integrate with the venue audio team to ensure we are capturing crystal clear audio from the source.</span>
+
+                  <div class="col-md mt-3">
+              <li><span>We integrate with the venue audio team to ensure we are capturing crystal clear audio from the source.</span></li>      
                   </div>
+
                 </div>
       
       
@@ -141,7 +168,7 @@
         
             
                 <div class="row">
-                  <div class="col mt-5">
+                  <div class="col-sm mt-5">
                       <div data-aos="flip-left"
                       data-aos-easing="ease-out-cubic"
                       
@@ -163,7 +190,7 @@
                 
                  
              
-              <div data-aos="zoom-in-right" class=" live-cont col"
+              <div data-aos="zoom-in-right" class=" live-cont col-sm"
               data-aos-duration="500">
                   <h1   class="display-3  mt-5 mb-5">
                       Best Team</h1>
@@ -181,7 +208,7 @@
             
                        
                         <div class="row ">
-                          <div class="col ">
+                          <div class="col-sm ">
                             <div data-aos="zoom-in-right"
                             data-aos-duration="500">
                             <i style="font-size: 90px; color: white;margin-bottom: 110px;" class="fas fa-phone-volume"></i>
@@ -195,7 +222,7 @@
                           </div>
             
                           <div
-                               class="col ">
+                               class="col-sm ">
                             
                           <h1  style="font-size: 45px; font-weight: 100;" class="text-white">1. Follow up</h1>
                           <p style="font-size: 15px; font-family: 'Raleway', sans-serif;" class="text-white">Let’s get to know each other, shall we? This is our chance to learn about your event and what you’re looking for.
@@ -207,12 +234,12 @@
                         <div class="section3-row row mt-3 container">
             
                           <div data-aos="zoom-out-down"
-                          data-aos-duration="500" class="col">
+                          data-aos-duration="500" class="col-sm">
                             <header>Location</header>
                             <small class="text-white">Location planning starts with high-level details, like where is your event? Is there a specific entrance we will load into? Next, we will discuss camera positions to ensure clean lines of sight and coordinate where our control area will be setup and where cables get run so they are safe and out of sight.</small>
                           </div>
                           <div data-aos="zoom-out-down"
-                          data-aos-duration="500" class="col">
+                          data-aos-duration="500" class="col-sm">
                            <header>Integration</header>
                             <small class="text-white">We will likely need to integrate with an in-house or other outside A/V vendor to get audio feeds of microphones and graphics feeds of PowerPoint and video playback. We handle all of these details and coordinate with the right people so you don’t have to think about things like HD-SDI or XLR signal flows</small>
                           </div>
@@ -226,13 +253,13 @@
                           <div class="row">
             
                             <div data-aos="zoom-in-right"
-                            data-aos-duration="500" class="col">
+                            data-aos-duration="500" class="col-sm">
                             <i style="font-size: 90px;" class="fas fa-tv"></i>
                             <h1  style="font-size: 35px; font-weight: 100;" class="text-white mt-3">3. Load in and Setup</h1>
                             <small>Before we arrive on site, we thoroughly test and prep all of the equipment for your event. On the day of your event, we often have a small window of time to get into the venue, setup, and tested. We staff our projects with skilled crew that have the experience to juggle any last minute curve balls that often come up at live events, all while keeping your project on track for successful completion.</small>
                             </div>
                             <div data-aos="zoom-out-down"
-                            data-aos-duration="500" class="col">
+                            data-aos-duration="500" class="col-sm">
                                 <h1  style="font-size: 35px; font-weight: 100;" class="text-white mt-3">3. Load in and Setup</h1>
                                 <small>Before we arrive on site, we thoroughly test and prep all of the equipment for your event. On the day of your event, we often have a small window of time to get into the venue, setup, and tested. We staff our projects with skilled crew that have the experience to juggle any last minute curve balls that often come up at live events, all while keeping your project on track for successful completion.</small>
                             </div>
@@ -240,23 +267,23 @@
                              <div class="row">
             
                               <div  data-aos="zoom-out-down"
-                              data-aos-duration="500" class="col4 col">
+                              data-aos-duration="500" class="col4 col-sm">
                                   <h1  style="font-size: 35px; font-weight: 100;" class="text-white mt-5">4. Show Time!</h1>
                                   <small>This is when the surge of adrenaline hits. All of the planning has come down to this moment. If you’re picturing a crew of crazy talented people, fancy cameras, and a lot of cable – this is that time. This is when planning becomes execution and ideas becomes reality.</small>
                               </div>
                               <div data-aos="zoom-in-right"
-                              data-aos-duration="500" class="col">
+                              data-aos-duration="500" class="col-sm">
                               <i style="font-size: 90px;" class="fas fa-record-vinyl"></i>
                               </div>
                              </div>
             
                              <div class="row mb-5">
                                <div data-aos="zoom-in-right"
-                               data-aos-duration="500" class="col">
+                               data-aos-duration="500" class="col-sm">
                                <i style="font-size: 90px;" class="fas fa-laptop"></i>
                                </div>
                                <div data-aos="zoom-out-down"
-                               data-aos-duration="500" class="col">
+                               data-aos-duration="500" class="col-sm">
                                   <h1  style="font-size: 35px; font-weight: 100;" class="text-white mt-3">5.  On Demand</h1>
                                   <small>Your event can be available for on-demand viewing instantly after it ends, or we can edit a modified version for highlight reels, press kits, or even break up long presentations into smaller chapters for viewing by module. The possibilities and flexibility of ways we can help you maximize your content are limitless.
             
@@ -278,7 +305,7 @@
                     <div style="height: 500px; background-color: black;" class="section4 container">
                       <div style="margin-top: px;" class="row-container">
                           <div style="margin-top:px;" class="row">
-                              <div class="col">
+                              <div class="col-sm">
                                <H3 style="" class="text-white mt-5 float-left">Contact</H3>
                                <p style="font-family: 'Raleway', sans-serif;" class="text-white mt-2 mb-5">LEAVE A MESSAGE</p>
                                <div class="form-wrapper">
@@ -307,6 +334,7 @@
                 
                 
                       </div>
+                  
                       <div id="footer" style="  margin-top: 100px;width: 100%;"  class="container text-center " >
                    
                         <hr>
