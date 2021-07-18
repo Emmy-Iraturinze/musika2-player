@@ -196,7 +196,10 @@ input::placeholder{
                
                   }
                   .section1 {
-                  background: linear-gradient(rgb(22, 1, 1),rgb(22, 1, 1));
+                  background: linear-gradient(rgb(22, 1, 1),rgb(22, 1, 1)rgb(12, 2, 2));
+                  }
+                  .section1 p{
+                       font-size: 14px;
                   }
                   
 }
