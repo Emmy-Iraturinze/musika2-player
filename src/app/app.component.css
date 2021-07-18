@@ -180,7 +180,7 @@ input::placeholder{
                
                   }
 }
-@media screen and (max-width:600px){
+@media screen and (min-width:200px) and (max-width:800px){
      .video-content {
   position: absolute;
   margin-top: -200px;
@@ -200,7 +200,7 @@ input::placeholder{
                   background: linear-gradient(rgb(22, 1, 1),rgb(22, 1, 1)rgb(12, 2, 2));
                   }
                   .section1 p{
-                       font-size: 14px;
+                       font-size: 13px;
                   }
                   
 }
