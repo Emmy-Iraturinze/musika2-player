@@ -3,10 +3,11 @@
      background: white;
     border: white;
 }
-.navbar-brand{
-    
-    
-
+.fa-users-cog{
+     color: blue;
+   
+     font-size: 90px !important;
+     margin-left: 100px!important;
 }
 .form2{
      margin-top: 50px;
@@ -138,10 +139,10 @@ input::placeholder{
      font-family: 'Raleway', sans-serif;
      position: relative;
 }
-.fa-phone-volume,.fa-tv,.fa-laptop,.fa-record-vinyl,.fa-cogs{
+.fa-phone-volume,.fa-tv,.fa-laptop,.fa-record-vinyl,.fa-cogs,.fa-users-cog{
      border: 2px solid white;
      padding: 20px;
-     margin-left: 70px;
+   
      color: white;
 }
 
