@@ -180,7 +180,7 @@ input::placeholder{
                
                   }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
      .video-content {
   position: absolute;
   margin-top: -200px;
