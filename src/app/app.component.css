@@ -35,13 +35,13 @@ nav a{
 .bi-github{
      position: absolute;
      margin-left: 850px;
-     font-size: 35px;
+     font-size: 30px;
      margin-top: -12px;
 }
 .fa-user-plus{
      position: absolute;
      margin-left: 880px;
-    font-size: 25px !important;
+    font-size: 20px !important;
     cursor: pointer;
 }
 #myVideo{
