@@ -241,12 +241,20 @@ btn.on('click', function(e) {
     <script async src="https://cse.google.com/cse.js?cx=ed38da5b219c502d9"></script>
   <script>
     $(document).ready(function(){
-  $(".fa-user-plus").click(function(){
+  $(".bi-person-plus").click(function(){
     $("form").animate({
       width: "toggle"
     });
   });
-});</script>
+  $(".bi-three-dots").click(function(){
+    $("#container-nav").animate({
+      width: "toggle",
+      overflow:"hidden"
+    });
+  });
+});
+
+</script>
 <script>
     function myFunction() {
        var element = document.body;

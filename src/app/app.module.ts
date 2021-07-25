@@ -12,6 +12,8 @@ import { YouTubePlayerModule } from "@angular/youtube-player";
 import { HttpClientModule } from '@angular/common/http';
 import { SearchComponent } from './search/search.component';
 import { ReadMeComponent } from './read-me/read-me.component';
+import { CoverPageComponent } from './cover-page/cover-page.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { ReadMeComponent } from './read-me/read-me.component';
     HistoryComponent,
     SettingsComponent,
     SearchComponent,
-    ReadMeComponent
+    ReadMeComponent,
+    CoverPageComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
